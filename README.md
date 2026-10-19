@@ -1,1 +1,3 @@
-# website_dev_course_autumn_2026
+# Website Development Course – Autumn 2026
+
+A repository for the Website Development course of autumn 2026.
