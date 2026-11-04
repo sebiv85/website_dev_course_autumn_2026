@@ -1,0 +1,144 @@
+p {
+    color:darkcyan;
+    }
+body { 
+        background-color: lightblue;
+        font-family: Arial, sans-serif;
+    }
+h1 {
+        font-size: 3em;
+    }
+
+.content-box {
+    border: 2px solid black;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgb(156, 255, 247);
+}
+
+table {
+    border-collapse: collapse;
+    width: 25%;
+   
+}
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+th {
+    background-color: pink
+    ;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input[type="text"], input[type="email"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    width: 150px;
+}
+input[type="submit"] {
+    background-color: #eb47d2;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    width: 150px;
+}
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+.transition-button {
+    background-color: #9f00b4; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    transition: background-color 0.4s ease; /* Transition effect */
+    transition-duration: 0.4s; /* Transition effect */
+}
+.transition-button:hover {
+    background-color: #1602ee; /* Darker green on hover */
+}
+
+.animation-box {
+    width: 200px;
+    height: 50px;
+    background-color: #9f00b4;
+    color: white;
+    border: 1px solid #ccc;
+    text-align: center;
+    margin: 20px;
+    position: relative;
+    animation: move 2s infinite alternate; /* Apply the animation */
+}
+.animation-box p {
+    color: #ffffff;
+}
+@keyframes move {
+   from {
+        left: 0;
+    }
+    to {
+        left: 200px;
+    }
+}
+
+.pseudo-list li:nth-child(odd) {
+    background-color: #f2f2f2;
+    width: 200px;
+}
+.pseudo-list li:nth-child(even) {
+    background-color: #00d7ee;
+    width: 200px;
+}
+
+.filter-image {
+    width: 400px;
+    height: 300px;
+    filter: grayscale(100%);
+    transition: filter 0.5s ease; /* Smooth transition for filter effect */
+}
+.filter-image:hover {
+    filter: grayscale(0%); /* Remove grayscale on hover */
+}
+
+.quote {
+    position: relative;
+    font-style: italic;
+    padding-left: 20px;
+    margin: 20px 0;
+}
+.quote::before {
+    content: "“"; /* Opening quotation mark */
+    font-size: 40px;
+    position: absolute;
+    left: 0;
+    top: 0;
+    color: black ;
+}
+.quote::after {
+    content: "”"; /* Closing quotation mark */
+    font-size: 40px;
+    position: relative;
+    right: 0;
+    bottom: 0;
+    color: black ;
+}
