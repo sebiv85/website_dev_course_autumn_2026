@@ -1,0 +1,531 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places &amp; Perspectives | Moments</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./perso_styles.css">
+  </head>
+
+
+  <body>
+
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+        <!-- Site Name -->
+        <a class="navbar-brand" href="index.html">Places & Perspectives</a>
+
+        <!-- Hamburger Menu -->
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--  LINKS -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="destinations.html">Destinations</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link active" href="moments.html">Moments</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about_me.html">About me</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<main>
+
+<!-- Kilpisjärvi Section -->
+    <section class="container py-5" id="kilpisjarvi">
+
+    <p class="gallery-label">01 / FINLAND · 2024</p>
+    <h1>Kilpisjärvi</h1>
+    <p class="lead">A collection of moments from the far north.</p>
+
+        
+    <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+
+    <div class="col">
+        <a href="#" data-bs-target="#photoCarousel" data-bs-slide-to="0">
+            <img src="imgs/kilpisjarvi/01.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModal" alt="Landscape in Kilpisjärvi">
+        </a>
+    </div>
+
+    <div class="col">
+        <a href="#" data-bs-target="#photoCarousel" data-bs-slide-to="1">
+            <img src="imgs/kilpisjarvi/02.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModal" alt="Landscape in Kilpisjärvi">
+        </a>
+    </div>
+
+    <div class="col">
+        <a href="#" data-bs-target="#photoCarousel" data-bs-slide-to="2">
+            <img src="imgs/kilpisjarvi/03.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModal" alt="Landscape in Kilpisjärvi">
+        </a>
+    </div>
+
+    <div class="col">
+        <a href="#" data-bs-target="#photoCarousel" data-bs-slide-to="3">
+            <img src="imgs/kilpisjarvi/04.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModal" alt="Landscape in Kilpisjärvi">
+        </a>
+    </div>
+
+    <div class="col">
+        <a href="#" data-bs-target="#photoCarousel" data-bs-slide-to="4">
+            <img src="imgs/kilpisjarvi/05.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModal" alt="Landscape in Kilpisjärvi">
+        </a>
+    </div>
+
+    <div class="col">
+        <a href="#" data-bs-target="#photoCarousel" data-bs-slide-to="5">
+            <img src="imgs/kilpisjarvi/06.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModal" alt="Landscape in Kilpisjärvi">
+        </a>
+    </div>
+
+    <div class="col">
+        <a href="#" data-bs-target="#photoCarousel" data-bs-slide-to="6">
+            <img src="imgs/kilpisjarvi/07.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModal" alt="Landscape in Kilpisjärvi">
+        </a>
+    </div>
+
+    <div class="col">
+        <a href="#" data-bs-target="#photoCarousel" data-bs-slide-to="7">
+            <img src="imgs/kilpisjarvi/08.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModal" alt="Landscape in Kilpisjärvi">
+        </a>
+    </div>
+
+    <div class="col">
+        <a href="#" data-bs-target="#photoCarousel" data-bs-slide-to="8">
+            <img src="imgs/kilpisjarvi/09.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModal" alt="Landscape in Kilpisjärvi">
+        </a>
+    </div>
+
+    <div class="col">
+        <a href="#" data-bs-target="#photoCarousel" data-bs-slide-to="9">
+            <img src="imgs/kilpisjarvi/10.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModal" alt="Landscape in Kilpisjärvi">
+        </a>
+    </div>
+    </div>
+    </section>
+
+    <!-- Photo Gallery Modal -->
+    <div class="modal fade" id="photoModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body text-center">
+
+                    <!-- Photo Carousel -->
+                    <div id="photoCarousel" class="carousel slide">
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <img src="imgs/kilpisjarvi/01.jpeg" class="full-photo" alt="Landscape in Kilpisjärvi">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/kilpisjarvi/02.jpeg" class="full-photo" alt="Landscape in Kilpisjärvi">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/kilpisjarvi/03.jpeg" class="full-photo" alt="Landscape in Kilpisjärvi">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/kilpisjarvi/04.jpeg" class="full-photo" alt="Landscape in Kilpisjärvi">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/kilpisjarvi/05.jpeg" class="full-photo" alt="Landscape in Kilpisjärvi">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/kilpisjarvi/06.jpeg" class="full-photo" alt="Landscape in Kilpisjärvi">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/kilpisjarvi/07.jpeg" class="full-photo" alt="Landscape in Kilpisjärvi">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/kilpisjarvi/08.jpeg" class="full-photo" alt="Landscape in Kilpisjärvi">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/kilpisjarvi/09.jpeg" class="full-photo" alt="Landscape in Kilpisjärvi">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/kilpisjarvi/10.jpeg" class="full-photo" alt="Landscape in Kilpisjärvi">
+                            </div>
+
+                        </div>
+
+                        <!-- Previous Button -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#photoCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <!-- Next Button -->
+                        <button class="carousel-control-next" type="button" data-bs-target="#photoCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    
+<!-- Mekong Delta Section -->
+    <section class="container py-5" id="mekong-delta">
+
+        <p class="gallery-label">02 / VIETNAM · 2012</p>
+        <h1>Mekong Delta</h1>
+        <p class="lead">A collection of moments from southern Vietnam.</p>
+
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselMekong" data-bs-slide-to="0">
+                    <img src="imgs/mekongdelta/01.jpg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalMekong" alt="Mekong Delta, Vietnam">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselMekong" data-bs-slide-to="1">
+                    <img src="imgs/mekongdelta/02.jpg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalMekong" alt="Mekong Delta, Vietnam">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselMekong" data-bs-slide-to="2">
+                    <img src="imgs/mekongdelta/03.jpg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalMekong" alt="Mekong Delta, Vietnam">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselMekong" data-bs-slide-to="3">
+                    <img src="imgs/mekongdelta/04.jpg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalMekong" alt="Mekong Delta, Vietnam">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselMekong" data-bs-slide-to="4">
+                    <img src="imgs/mekongdelta/05.jpg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalMekong" alt="Mekong Delta, Vietnam">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselMekong" data-bs-slide-to="5">
+                    <img src="imgs/mekongdelta/06.jpg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalMekong" alt="Mekong Delta, Vietnam">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselMekong" data-bs-slide-to="6">
+                    <img src="imgs/mekongdelta/07.jpg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalMekong" alt="Mekong Delta, Vietnam">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselMekong" data-bs-slide-to="7">
+                    <img src="imgs/mekongdelta/08.jpg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalMekong" alt="Mekong Delta, Vietnam">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselMekong" data-bs-slide-to="8">
+                    <img src="imgs/mekongdelta/09.jpg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalMekong" alt="Mekong Delta, Vietnam">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselMekong" data-bs-slide-to="9">
+                    <img src="imgs/mekongdelta/10.jpg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalMekong" alt="Mekong Delta, Vietnam">
+                </a>
+            </div>
+
+        </div>
+    </section>
+    
+    <!-- Mekong Delta Photo Gallery Modal -->
+    <div class="modal fade" id="photoModalMekong" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body text-center">
+
+                    <!-- Mekong Delta Photo Carousel -->
+                    <div id="photoCarouselMekong" class="carousel slide">
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <img src="imgs/mekongdelta/01.jpg" class="full-photo" alt="Mekong Delta, Vietnam">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/mekongdelta/02.jpg" class="full-photo" alt="Mekong Delta, Vietnam">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/mekongdelta/03.jpg" class="full-photo" alt="Mekong Delta, Vietnam">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/mekongdelta/04.jpg" class="full-photo" alt="Mekong Delta, Vietnam">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/mekongdelta/05.jpg" class="full-photo" alt="Mekong Delta, Vietnam">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/mekongdelta/06.jpg" class="full-photo" alt="Mekong Delta, Vietnam">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/mekongdelta/07.jpg" class="full-photo" alt="Mekong Delta, Vietnam">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/mekongdelta/08.jpg" class="full-photo" alt="Mekong Delta, Vietnam">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/mekongdelta/09.jpg" class="full-photo" alt="Mekong Delta, Vietnam">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/mekongdelta/10.jpg" class="full-photo" alt="Mekong Delta, Vietnam">
+                            </div>
+
+                        </div>
+
+                        <!-- Previous Button -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#photoCarouselMekong" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <!-- Next Button -->
+                        <button class="carousel-control-next" type="button" data-bs-target="#photoCarouselMekong" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- Sintra Section -->
+    <section class="container py-5" id="sintra">
+
+        <p class="gallery-label">03 / PORTUGAL · 2025</p>
+        <h1>Sintra</h1>
+        <p class="lead">A collection of moments from Portugal's enchanting town.</p>
+
+        <div class="row row-cols-2 row-cols-md-3 row-cols-lg-5 g-3">
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselSintra" data-bs-slide-to="0">
+                    <img src="imgs/sintra/01.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalSintra" alt="Sintra, Portugal">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselSintra" data-bs-slide-to="1">
+                    <img src="imgs/sintra/02.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalSintra" alt="Sintra, Portugal">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselSintra" data-bs-slide-to="2">
+                    <img src="imgs/sintra/03.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalSintra" alt="Sintra, Portugal">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselSintra" data-bs-slide-to="3">
+                    <img src="imgs/sintra/04.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalSintra" alt="Sintra, Portugal">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselSintra" data-bs-slide-to="4">
+                    <img src="imgs/sintra/05.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalSintra" alt="Sintra, Portugal">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselSintra" data-bs-slide-to="5">
+                    <img src="imgs/sintra/06.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalSintra" alt="Sintra, Portugal">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselSintra" data-bs-slide-to="6">
+                    <img src="imgs/sintra/07.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalSintra" alt="Sintra, Portugal">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselSintra" data-bs-slide-to="7">
+                    <img src="imgs/sintra/08.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalSintra" alt="Sintra, Portugal">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselSintra" data-bs-slide-to="8">
+                    <img src="imgs/sintra/09.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalSintra" alt="Sintra, Portugal">
+                </a>
+            </div>
+
+            <div class="col">
+                <a href="#" data-bs-target="#photoCarouselSintra" data-bs-slide-to="9">
+                    <img src="imgs/sintra/10.jpeg" class="moment-photo" loading="lazy" data-bs-toggle="modal" data-bs-target="#photoModalSintra" alt="Sintra, Portugal">
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+
+    <!-- Sintra Photo Gallery Modal -->
+    <div class="modal fade" id="photoModalSintra" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered modal-xl">
+            <div class="modal-content">
+
+                <div class="modal-header border-0">
+                    <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                </div>
+
+                <div class="modal-body text-center">
+
+                    <!-- Sintra Photo Carousel -->
+                    <div id="photoCarouselSintra" class="carousel slide">
+
+                        <div class="carousel-inner">
+
+                            <div class="carousel-item active">
+                                <img src="imgs/sintra/01.jpeg" class="full-photo" alt="Sintra, Portugal">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/sintra/02.jpeg" class="full-photo" alt="Sintra, Portugal">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/sintra/03.jpeg" class="full-photo" alt="Sintra, Portugal">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/sintra/04.jpeg" class="full-photo" alt="Sintra, Portugal">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/sintra/05.jpeg" class="full-photo" alt="Sintra, Portugal">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/sintra/06.jpeg" class="full-photo" alt="Sintra, Portugal">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/sintra/07.jpeg" class="full-photo" alt="Sintra, Portugal">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/sintra/08.jpeg" class="full-photo" alt="Sintra, Portugal">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/sintra/09.jpeg" class="full-photo" alt="Sintra, Portugal">
+                            </div>
+
+                            <div class="carousel-item">
+                                <img src="imgs/sintra/10.jpeg" class="full-photo" alt="Sintra, Portugal">
+                            </div>
+
+                        </div>
+
+                        <!-- Previous Button -->
+                        <button class="carousel-control-prev" type="button" data-bs-target="#photoCarouselSintra" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+
+                        <!-- Next Button -->
+                        <button class="carousel-control-next" type="button" data-bs-target="#photoCarouselSintra" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+
+
+
+
+</main>
+
+  <footer class="text-center bg-dark text-white py-4">
+      <p class="mb-2">Places &amp; Perspectives</p>
+      <p class="small mb-0">
+          &copy; 2026 Design by Sebi. All rights reserved.
+      </p>
+  </footer>
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places &amp; Perspectives | Destinations</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./perso_styles.css">
+  </head>
+
+
+  <body>
+
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+        <!-- Site Name -->
+        <a class="navbar-brand" href="index.html">Places & Perspectives</a>
+
+        <!-- Hamburger Menu -->
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--  LINKS -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link active" href="destinations.html">Destinations</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="moments.html">Moments</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about_me.html">About me</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<main>  
+
+
+    <!-- Page Heading -->
+    <section class="container py-5 text-center">
+
+        <h1>You won't believe the things I've seen</h1>
+
+        <p class="lead">A collection of places, experiences and moments along the way.</p>
+
+    </section>
+
+
+    <!-- Destination Cards -->
+    <section class="container pb-5">
+        <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+
+            <!-- Kipisjärvi Card -->
+            <div class="col">
+                <div class="card h-100 border-0 card-sage">
+                    <img src="imgs/kilpisjarvi/06.jpeg" class="card-img-top object-fit-cover" style="height: 288px;" alt="Landscape at Kilpisjärvi">
+                    <div class="card-body">
+                        <h2 class="card-title">Kilpisjärvi</h2>
+                        <p class="card-text">Finland · 2024</p>
+                        <a href="moments.html#kilpisjarvi" class="btn btn-outline-dark"> Explore moments</a>
+                    </div>
+                </div>
+            </div>
+          
+            <!-- Mekong Delta -->
+            <div class="col">
+                <div class="card h-100 border-0 card-sand">
+                    <img src="imgs/mekongdelta/03.jpg" class="card-img-top object-fit-cover" style="height: 288px;" alt="Mekong Delta">
+                    <div class="card-body">
+                        <h2 class="card-title">Mekong Delta</h2>
+                        <p class="card-text">Vietnam · 2012</p>
+                        <a href="moments.html#mekong-delta" class="btn btn-outline-dark">Explore moments</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Sintra -->
+            <div class="col">
+                <div class="card h-100 border-0 card-clay">
+                    <img src="imgs/sintra/03.jpeg" class="card-img-top object-fit-cover" style="height: 288px;" alt="Sintra, Portugal">
+                    <div class="card-body">
+                        <h2 class="card-title">Sintra</h2>
+                        <p class="card-text">Portugal · 2025</p>
+                        <a href="moments.html#sintra" class="btn btn-outline-dark">Explore moments</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination 4 -->
+            <div class="col">
+                <div class="card h-100 border-0 card-sage">
+                    <img src="https://placehold.co/600x400" class="card-img-top object-fit-cover" style="height: 288px;" alt="Destination 4">
+                    <div class="card-body">
+                        <h2 class="card-title">Destination 4</h2>
+                        <p class="card-text">Country · Year</p>
+                        <a href="moments.html#destination4" class="btn btn-outline-dark">Explore moments</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination 5 -->
+            <div class="col">
+                <div class="card h-100 border-0 card-sand">
+                    <img src="https://placehold.co/600x400" class="card-img-top object-fit-cover" style="height: 288px;" alt="Destination 5">
+                    <div class="card-body">
+                        <h2 class="card-title">Destination 5</h2>
+                        <p class="card-text">Country · Year</p>
+                        <a href="moments.html#destination5" class="btn btn-outline-dark">Explore moments</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Destination 6 -->
+            <div class="col">
+                <div class="card h-100 border-0 card-clay">
+                    <img src="https://placehold.co/600x400" class="card-img-top object-fit-cover" style="height: 288px;" alt="Destination 6">
+                    <div class="card-body">
+                        <h2 class="card-title">Destination 6</h2>
+                        <p class="card-text">Country · Year</p>
+                        <a href="moments.html#destination6" class="btn btn-outline-dark">Explore moments</a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+
+
+</main>
+
+  <footer class="text-center bg-dark text-white py-4">
+      <p class="mb-2">Places &amp; Perspectives</p>
+      <p class="small mb-0">
+          &copy; 2026 Design by Sebi. All rights reserved.
+      </p>
+  </footer>
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

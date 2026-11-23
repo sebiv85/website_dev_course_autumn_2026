@@ -1,59 +1,140 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-    <link
-      rel="stylesheet"
-      href="./node_modules/bootstrap/dist/css/bootstrap.min.css"
-    />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Places &amp; Perspectives | Home</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;500;600&family=DM+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./perso_styles.css">
   </head>
+
+
   <body>
 
-    <div class="div container">
-      <div class="div row"></div>
+    <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+
+        <!-- Site Name -->
+        <a class="navbar-brand" href="index.html">Places & Perspectives</a>
+
+        <!-- Hamburger Menu -->
+        <button class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#mainNavbar"
+                aria-controls="mainNavbar"
+                aria-expanded="false"
+                aria-label="Toggle navigation">
+
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!--  LINKS -->
+        <div class="collapse navbar-collapse" id="mainNavbar">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a class="nav-link active" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="destinations.html">Destinations</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="moments.html">Moments</a>
+                </li>
+
+                <li class="nav-item">
+                    <a class="nav-link" href="about_me.html">About me</a>
+                </li>
+            </ul>
+        </div>
     </div>
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <div class="container-fluid">
-    <a class="navbar-brand" href="#">INSERT TITLE HERE</a>
-    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span class="navbar-toggler-icon"></span>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-      <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-        <li class="nav-item">
-          <a class="nav-link active" aria-current="page" href="#">Home</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Link</a>
-        </li>
-        <li class="nav-item dropdown">
-          <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            Dropdown
-          </a>
-          <ul class="dropdown-menu">
-            <li><a class="dropdown-item" href="#">Action</a></li>
-            <li><a class="dropdown-item" href="#">Another action</a></li>
-            <li><hr class="dropdown-divider"></li>
-            <li><a class="dropdown-item" href="#">Something else here</a></li>
-          </ul>
-        </li>
-        </ul>
-      <form class="d-flex" role="search">
-        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search"/>
-        <button class="btn btn-secondary" type="submit">Search</button>
-      </form>
-    </div>
-  </div>
 </nav>
 
+<!-- Main Content -->
+<main>  
 
+    <!-- Hero Section -->
+    <section class="hero-section">
 
+        <img src="./imgs/hero.jpeg" alt="A beautiful travel photograph" class="hero-image">
 
-    <div class="text-center mt-5 bg-dark text-white p-5">
-      <p>&copy; 2026 Design by Sebi. All rights reserved.</p>
+        <div class="hero-text">
+            <p class="hero-eyebrow">A PERSONAL TRAVEL JOURNAL</p>
+
+            <h1>The world,<br>through my eyes.</h1>
+
+            <p>Places, the unexpected and the roads less traveled.</p>
+
+            <a href="destinations.html" class="btn btn-primary">
+                Explore my travels
+            </a>
+        </div>
+
+    </section>
+
+<!-- Some text to make you want to stay -->
+    <section class="container py-5">
+
+    <div class="row justify-content-center">
+
+        <div class="col-lg-8 text-start">
+
+            <h2 class="mb-4">Another way of seeing the world </h2>
+
+            <p class="lead">
+                I'm not a travel journalist, just someone who enjoys
+                discovering places and seeing what's around the next corner.
+            </p>
+
+            <p>
+                The destinations you'll find here aren't necessarily
+                the usual tourist hotspots. They're simply places I've
+                visited, moments I've captured and little details that
+                made me stop and look.
+            </p>
+
+            <p>
+                The world looks very different when you go a little off the beaten path. 
+                Sometimes the most interesting things are the ones you stumble upon by accident.             
+            </p>
+
+            <p>
+                I hope you enjoy exploring them through my photographs –
+                and perhaps you'll find a place that makes you want to
+                pack your bags and see it for yourself.
+            </p>
+
+        </div>
+
     </div>
-    <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+</section>
+
+
+
+
+
+
+
+
+
+</main>
+
+  <footer class="text-center bg-dark text-white py-4">
+      <p class="mb-2">Places &amp; Perspectives</p>
+      <p class="small mb-0">
+          &copy; 2026 Design by Sebi. All rights reserved.
+      </p>
+  </footer>
+
+  <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
