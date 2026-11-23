@@ -15,6 +15,10 @@ body {
     flex-direction: column;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 html, body {
     height: 100%;
     margin: 0;
@@ -211,4 +215,98 @@ footer {
 footer p:first-child {
     font-family: 'Cormorant Garamond', serif;
     font-size: 24px;
+}
+
+.back-to-top {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    width: 45px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--color-clay);
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+    border-radius: 50%;
+    z-index: 1000;
+    transition: background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+    background-color: var(--color-sage);
+    color: white;
+}
+
+/* ABOUT ME PAGE */
+
+.about-image {
+    width: 100%;
+    height: 580px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 3px;
+}
+
+.about-eyebrow {
+    font-size: 12px;
+    letter-spacing: 3px;
+    color: var(--color-clay);
+    margin-bottom: 15px;
+}
+
+.about-heading {
+    font-size: 42px;
+    font-weight: 500;
+    margin-bottom: 25px;
+}
+
+.about-card {
+    background-color: var(--color-sand);
+    border-radius: 3px;
+    overflow: hidden;
+}
+
+.about-card-image {
+    width: 100%;
+    height: 220px;
+    object-fit: cover;
+}
+
+.about-card h3 {
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.about-card p {
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 0;
+}
+
+.about-ending {
+    background-color: var(--color-sage);
+    color: white;
+    margin-top: 30px;
+}
+
+.about-ending h2 {
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.about-ending p {
+    margin-bottom: 0;
+}
+
+@media (max-width: 767px) {
+    .about-image {
+        height: 450px;
+    }
+
+    .about-heading {
+        font-size: 34px;
+    }
 }
